@@ -4,11 +4,13 @@ import data.CustomDataProviders;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LoginPage;
+import pages.ShoppingPage;
 import utilities.BaseTest;
 
 public class LoginTests extends BaseTest {
 
     private final LoginPage loginPage = new LoginPage();
+    private final ShoppingPage shoppingPage = new ShoppingPage();
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
@@ -20,6 +22,7 @@ public class LoginTests extends BaseTest {
     public void testValidLogin() {
 
         loginPage.fillLogin("standard_user", "secret_sauce");
+        shoppingPage.verifyPage();
     }
 
     @Test(

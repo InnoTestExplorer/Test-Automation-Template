@@ -1,65 +1,21 @@
-21:48:05.759 INFO  AUTOMATION - Suite iniciado: Surefire suite
+22:04:56.756 INFO  AUTOMATION - Suite iniciado: Default Suite
 
-21:48:05.793 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-21:48:06.721 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:48:06.731 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-21:48:07.455 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:48:08.874 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
-21:48:09.030 INFO  AUTOMATION - Inicializando driver: EDGE
-21:48:09.031 DEBUG AUTOMATION - Headless mode? false
-21:48:24.416 DEBUG AUTOMATION - Maximizando ventana
-21:48:24.569 DEBUG AUTOMATION - Borrando cookies
-21:48:24.601 DEBUG AUTOMATION - Asignando driver al webdriver provider
-21:48:25.929 INFO  AUTOMATION - Navegamos a la pagina
-21:48:27.281 INFO  AUTOMATION - Verificando que cargo la pagina
-21:48:27.762 INFO  AUTOMATION - Empezando el test: testLoginALLUsers
+22:04:56.787 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+22:04:57.413 DEBUG AUTOMATION - Asignando default driver a Chrome
+22:04:57.417 INFO  AUTOMATION - Inicializando driver: CHROME
+22:04:57.418 DEBUG AUTOMATION - Headless mode? false
+22:05:01.952 DEBUG AUTOMATION - Maximizando ventana
+22:05:02.030 DEBUG AUTOMATION - Borrando cookies
+22:05:02.073 DEBUG AUTOMATION - Asignando driver al webdriver provider
+22:05:02.472 INFO  AUTOMATION - Navegamos a la pagina
+22:05:03.452 INFO  AUTOMATION - Verificando que cargo la pagina
+22:05:03.727 INFO  AUTOMATION - Empezando el test: testValidLogin
 
-21:48:27.962 INFO  AUTOMATION - Escribiendo el usuario
-21:48:28.796 INFO  AUTOMATION - Escribiendo la contrasena
-21:48:29.113 INFO  AUTOMATION - Haciendo click en login
-21:48:29.398 INFO  AUTOMATION - Test exitoso: testLoginALLUsers
-21:48:29.401 DEBUG AUTOMATION - Matando el padre
-21:48:31.091 INFO  AUTOMATION - Inicializando driver: EDGE
-21:48:31.092 DEBUG AUTOMATION - Headless mode? false
-21:48:33.937 DEBUG AUTOMATION - Maximizando ventana
-21:48:34.028 DEBUG AUTOMATION - Borrando cookies
-21:48:34.054 DEBUG AUTOMATION - Asignando driver al webdriver provider
-21:48:34.061 INFO  AUTOMATION - Navegamos a la pagina
-21:48:35.214 INFO  AUTOMATION - Verificando que cargo la pagina
-21:48:35.364 INFO  AUTOMATION - Empezando el test: testLoginALLUsers
-
-21:48:35.371 INFO  AUTOMATION - Escribiendo el usuario
-21:48:35.605 INFO  AUTOMATION - Escribiendo la contrasena
-21:48:35.777 INFO  AUTOMATION - Haciendo click en login
-21:48:36.109 INFO  AUTOMATION - Test exitoso: testLoginALLUsers
-21:48:36.111 DEBUG AUTOMATION - Matando el padre
-21:48:37.647 INFO  AUTOMATION - Inicializando driver: EDGE
-21:48:37.647 DEBUG AUTOMATION - Headless mode? false
-21:48:40.162 DEBUG AUTOMATION - Maximizando ventana
-21:48:40.254 DEBUG AUTOMATION - Borrando cookies
-21:48:40.272 DEBUG AUTOMATION - Asignando driver al webdriver provider
-21:48:40.278 INFO  AUTOMATION - Navegamos a la pagina
-21:48:41.135 INFO  AUTOMATION - Verificando que cargo la pagina
-21:48:41.287 INFO  AUTOMATION - Empezando el test: testLoginALLUsers
-
-21:48:41.296 INFO  AUTOMATION - Escribiendo el usuario
-21:48:41.547 INFO  AUTOMATION - Escribiendo la contrasena
-21:48:41.731 INFO  AUTOMATION - Haciendo click en login
-21:48:41.894 INFO  AUTOMATION - Test exitoso: testLoginALLUsers
-21:48:41.899 DEBUG AUTOMATION - Matando el padre
-21:48:43.364 INFO  AUTOMATION - Inicializando driver: EDGE
-21:48:43.365 DEBUG AUTOMATION - Headless mode? false
-21:48:45.704 DEBUG AUTOMATION - Maximizando ventana
-21:48:45.814 DEBUG AUTOMATION - Borrando cookies
-21:48:45.835 DEBUG AUTOMATION - Asignando driver al webdriver provider
-21:48:45.840 INFO  AUTOMATION - Navegamos a la pagina
-21:48:46.907 INFO  AUTOMATION - Verificando que cargo la pagina
-21:48:47.061 INFO  AUTOMATION - Empezando el test: testValidLogin
-
-21:48:47.069 INFO  AUTOMATION - Escribiendo el usuario
-21:48:47.276 INFO  AUTOMATION - Escribiendo la contrasena
-21:48:47.452 INFO  AUTOMATION - Haciendo click en login
-21:48:47.735 INFO  AUTOMATION - Test exitoso: testValidLogin
-21:48:47.738 DEBUG AUTOMATION - Matando el padre
-21:48:49.330 INFO  AUTOMATION - Suite finalizado: Surefire suite
+22:05:03.810 INFO  AUTOMATION - Escribiendo el usuario
+22:05:04.025 INFO  AUTOMATION - Escribiendo la contrasena
+22:05:04.169 INFO  AUTOMATION - Haciendo click en login
+22:05:04.393 INFO  AUTOMATION - Verificando que cargo la pagina de shopping
+22:05:04.543 INFO  AUTOMATION - Test exitoso: testValidLogin
+22:05:04.553 DEBUG AUTOMATION - Matando el padre
+22:05:05.085 INFO  AUTOMATION - Suite finalizado: Default Suite
 

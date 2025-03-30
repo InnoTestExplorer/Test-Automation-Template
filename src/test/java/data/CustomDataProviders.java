@@ -1,7 +1,8 @@
 package data;
 
-import models.Credential;
 import org.testng.annotations.DataProvider;
+
+import java.util.Map;
 
 public class CustomDataProviders {
 
@@ -10,11 +11,19 @@ public class CustomDataProviders {
     @DataProvider(name = DP_CREDENTIALS)
     public static Object[][] credentialsDataProvider() {
 
-        final var credential = new Credential();
+        Map<String, String> mapCredentials = Parser.obtenerMapCredential();
 
-        return new Object[][]{
+        Object[][] data = new Object[mapCredentials.size()][2];
 
-                {credential.getUsername(), credential.getPassword()},
-        };
+        int index = 0;
+
+        for (Map.Entry<String, String> entry : mapCredentials.entrySet()) {
+
+            data[index][0] = entry.getKey();
+            data[index][1] = entry.getValue();
+            index++;
+        }
+
+        return data;
     }
 }

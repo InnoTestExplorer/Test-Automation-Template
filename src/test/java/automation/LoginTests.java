@@ -19,7 +19,7 @@ public class LoginTests extends BaseTest {
     @Test
     public void testValidLogin() {
 
-        loginPage.fillLogin("standard_user", "secret_sauce");
+        loginPage.fillLogin("standard_userd", "secret_sauce");
     }
 
     @Test(
@@ -27,7 +27,7 @@ public class LoginTests extends BaseTest {
             dataProviderClass = CustomDataProviders.class,
             dataProvider = CustomDataProviders.DP_CREDENTIALS)
     public void testLoginALLUsers(String username, String password) {
-        
+
         loginPage.fillLogin(username, password);
     }
 }

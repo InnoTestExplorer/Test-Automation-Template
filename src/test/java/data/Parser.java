@@ -9,11 +9,11 @@ public class Parser {
 
         final var map = new HashMap<String, String>();
 
-        final var listaCredentiales = ExcelReader.leerListaCredencialExcel();
+        final var listaCredentials = ExcelReader.leerListaCredencialExcel();
 
-        for (var user : listaCredentiales) {
+        for (var userData : listaCredentials) {
 
-            map.put(user.getUsername(), user.getPassword());
+            map.put(userData.getUsername(), userData.getPassword());
         }
 
         return map;

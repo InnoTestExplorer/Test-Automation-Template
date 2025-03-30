@@ -1,5 +1,6 @@
 package automation;
 
+import data.CustomDataProviders;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LoginPage;
@@ -19,5 +20,14 @@ public class LoginTests extends BaseTest {
     public void testValidLogin() {
 
         loginPage.fillLogin("standard_user", "secret_sauce");
+    }
+
+    @Test(
+            groups = {regression},
+            dataProviderClass = CustomDataProviders.class,
+            dataProvider = CustomDataProviders.DP_CREDENTIALS)
+    public void testLoginALLUsers(String username, String password) {
+        
+        loginPage.fillLogin(username, password);
     }
 }

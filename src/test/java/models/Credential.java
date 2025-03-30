@@ -10,8 +10,6 @@ public class Credential {
     private String username;
     @ExcelCellName("PASSWORD")
     private String password;
-    @ExcelCellName("MESSAGE")
-    private String message;
 
     public String getUsername() {
         return username;
@@ -19,9 +17,5 @@ public class Credential {
 
     public String getPassword() {
         return password;
-    }
-
-    public String getMessage() {
-        return message;
     }
 }

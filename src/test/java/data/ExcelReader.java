@@ -12,6 +12,6 @@ public class ExcelReader {
 
     public static List<Credential> leerListaCredencialExcel() {
 
-        return Poiji.fromExcel(new File(excelPath), Credential.class)
+        return Poiji.fromExcel(new File(excelPath), Credential.class);
     }
 }

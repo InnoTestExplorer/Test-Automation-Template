@@ -1,20 +1,21 @@
-21:20:28.387 INFO  AUTOMATION - Suite iniciado: Default Suite
+19:42:49.833 INFO  AUTOMATION - Suite iniciado: Default Suite
 
-21:20:28.415 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-21:20:28.670 DEBUG AUTOMATION - Asignando default driver a Chrome
-21:20:28.677 INFO  AUTOMATION - Inicializando driver: CHROME
-21:20:28.678 DEBUG AUTOMATION - Headless mode? false
-21:20:34.786 DEBUG AUTOMATION - Maximizando ventana
-21:20:34.926 DEBUG AUTOMATION - Borrando cookies
-21:20:34.975 DEBUG AUTOMATION - Asignando driver al webdriver provider
-21:20:35.368 INFO  AUTOMATION - Navegamos a la pagina
-21:20:37.148 INFO  AUTOMATION - Verificando que cargo la pagina
-21:20:37.550 INFO  AUTOMATION - Empezando el test: testValidLogin
+19:42:49.874 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+19:42:50.252 DEBUG AUTOMATION - Asignando default driver a Chrome
+19:42:50.258 INFO  AUTOMATION - Inicializando driver: CHROME
+19:42:50.259 DEBUG AUTOMATION - Headless mode? false
+19:42:58.556 DEBUG AUTOMATION - Maximizando ventana
+19:42:58.640 DEBUG AUTOMATION - Borrando cookies
+19:42:58.665 DEBUG AUTOMATION - Asignando driver al webdriver provider
+19:42:59.078 INFO  AUTOMATION - Navegamos a la pagina
+19:43:00.182 INFO  AUTOMATION - Verificando que cargo la pagina
+19:43:00.907 INFO  AUTOMATION - Empezando el test: testLoginALLUsers
 
-21:20:37.660 INFO  AUTOMATION - Escribiendo el usuario
-21:20:37.985 INFO  AUTOMATION - Escribiendo la contrasena
-21:20:38.248 INFO  AUTOMATION - Haciendo click en login
-21:20:38.640 INFO  AUTOMATION - Test exitoso: testValidLogin
-21:20:38.647 DEBUG AUTOMATION - Matando el padre
-21:20:39.810 INFO  AUTOMATION - Suite finalizado: Default Suite
+19:43:01.037 INFO  AUTOMATION - Escribiendo el usuario
+19:43:01.146 INFO  AUTOMATION - Test fallido: testLoginALLUsers
+19:43:01.147 DEBUG AUTOMATION - Tomando screenshot
+19:43:01.329 DEBUG AUTOMATION - Tomando page source
+19:43:01.330 DEBUG AUTOMATION - Creando los directorios padres si que no existen
+19:43:01.973 DEBUG AUTOMATION - Matando el padre
+19:43:04.218 INFO  AUTOMATION - Suite finalizado: Default Suite
 

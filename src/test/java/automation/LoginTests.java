@@ -16,10 +16,10 @@ public class LoginTests extends BaseTest {
         commonFlows.goToLoginPage();
     }
 
-    @Test
+    @Test(groups = {regression})
     public void testValidLogin() {
 
-        loginPage.fillLogin("standard_userd", "secret_sauce");
+        loginPage.fillLogin("standard_user", "secret_sauce");
     }
 
     @Test(

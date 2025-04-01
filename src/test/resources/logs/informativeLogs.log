@@ -1,14 +1,13 @@
-22:22:55.994 INFO  AUTOMATION - Suite iniciado: Default Suite
+19:17:29.433 INFO  AUTOMATION - Suite iniciado: Default Suite
 
-22:22:56.364 INFO  AUTOMATION - Inicializando driver: CHROME
-22:23:01.567 INFO  AUTOMATION - Navegamos a la pagina
-22:23:02.381 INFO  AUTOMATION - Verificando que cargo la pagina
-22:23:02.699 INFO  AUTOMATION - Empezando el test: testValidLogin
+19:17:31.205 INFO  AUTOMATION - Inicializando driver: CHROME
+19:17:42.204 INFO  AUTOMATION - Navegamos a la pagina
+19:17:44.130 INFO  AUTOMATION - Verificando que cargo la pagina
+19:17:44.391 INFO  AUTOMATION - Empezando el test: testLoginALLUsers
 
-22:23:02.784 INFO  AUTOMATION - Escribiendo el usuario
-22:23:03.074 INFO  AUTOMATION - Escribiendo la contrasena
-22:23:03.222 INFO  AUTOMATION - Haciendo click en login
-22:23:03.456 INFO  AUTOMATION - Verificando que cargo la pagina de shopping
-22:23:03.584 INFO  AUTOMATION - Test exitoso: testValidLogin
-22:23:04.226 INFO  AUTOMATION - Suite finalizado: Default Suite
+19:17:44.517 INFO  AUTOMATION - Escribiendo el usuario
+19:17:44.866 INFO  AUTOMATION - Escribiendo la contrasena
+19:17:45.042 INFO  AUTOMATION - Haciendo click en login
+19:17:45.491 INFO  AUTOMATION - Test exitoso: testLoginALLUsers
+19:17:48.172 INFO  AUTOMATION - Suite finalizado: Default Suite
 

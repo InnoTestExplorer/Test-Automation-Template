@@ -2,8 +2,6 @@ package data;
 
 import org.testng.annotations.DataProvider;
 
-import java.util.Map;
-
 public class CustomDataProviders {
 
     public static final String DP_CREDENTIALS = "dp_credentials";
@@ -11,19 +9,11 @@ public class CustomDataProviders {
     @DataProvider(name = DP_CREDENTIALS)
     public static Object[][] credentialsDataProvider() {
 
-        Map<String, String> mapCredentials = Parser.obtenerMapCredential();
+        final var valid = DataGiver.getValidCredentials();
 
-        Object[][] data = new Object[mapCredentials.size()][2];
+        return new Object[][]{
 
-        int index = 0;
-
-        for (Map.Entry<String, String> entry : mapCredentials.entrySet()) {
-
-            data[index][0] = entry.getKey();
-            data[index][1] = entry.getValue();
-            index++;
-        }
-
-        return data;
+                {valid.getUsername(), valid.getPassword()}
+        };
     }
 }

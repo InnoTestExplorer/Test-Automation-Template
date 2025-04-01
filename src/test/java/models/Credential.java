@@ -1,15 +1,15 @@
 package models;
 
-import com.poiji.annotation.ExcelCellName;
-import com.poiji.annotation.ExcelSheet;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-@ExcelSheet("credentials")
 public class Credential {
 
-    @ExcelCellName("USERNAME")
+    @JsonProperty("username")
     private String username;
-    @ExcelCellName("PASSWORD")
+    @JsonProperty("password")
     private String password;
+    @JsonProperty("message")
+    private String message;
 
     public String getUsername() {
         return username;
@@ -17,5 +17,9 @@ public class Credential {
 
     public String getPassword() {
         return password;
+    }
+
+    public String getMessage() {
+        return message;
     }
 }

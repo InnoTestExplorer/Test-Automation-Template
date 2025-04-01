@@ -29,7 +29,7 @@ public class LoginTests extends BaseTest {
             groups = {regression},
             dataProviderClass = CustomDataProviders.class,
             dataProvider = CustomDataProviders.DP_CREDENTIALS)
-    public void testLoginALLUsers(String username, String password) {
+    public void testLoginAllUsers(String username, String password) {
 
         loginPage.fillLogin(username, password);
     }

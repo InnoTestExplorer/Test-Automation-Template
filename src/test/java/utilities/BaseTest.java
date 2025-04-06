@@ -9,7 +9,7 @@ import org.testng.annotations.Listeners;
 @Listeners({TestListeners.class, SuiteListeners.class})
 public class BaseTest {
 
-    protected final String reggression = "reggression";
+    protected final String execution = "execution";
     protected final DriverManager driverManager = new DriverManager();
     protected final CommonFlows commonFlows = new CommonFlows();
 

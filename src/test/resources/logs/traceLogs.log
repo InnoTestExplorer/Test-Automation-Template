@@ -1,23 +1,19 @@
-20:07:42.557 INFO  AUTOMATION - Suite iniciado: Default Suite&n
-20:07:42.588 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-20:07:42.862 INFO  AUTOMATION - Asignando default driver a Chrome
-20:07:42.866 INFO  AUTOMATION - Inicializando driver: CHROME
-20:07:42.867 DEBUG AUTOMATION - Headless mode? false
-20:07:50.656 DEBUG AUTOMATION - Maximizando ventana
-20:07:50.736 DEBUG AUTOMATION - Borrando cookies
-20:07:50.772 DEBUG AUTOMATION - Asignando driver al Webdriver Provier
-20:07:51.110 INFO  AUTOMATION - Navegamos a la pagina de Signup
-20:07:54.301 INFO  AUTOMATION - Empezando el test: testUserRegister
-20:07:54.438 INFO  AUTOMATION - Escribiendo el nombre
-20:07:54.695 INFO  AUTOMATION - Escribiendo el apellido
-20:07:54.868 INFO  AUTOMATION - Escribiendo el email
-20:07:55.171 INFO  AUTOMATION - Escribiendo el telefono
-20:07:55.321 INFO  AUTOMATION - Escribiendo la contraseña
-20:07:55.480 INFO  AUTOMATION - Confirmando contraseña
-20:07:55.649 INFO  AUTOMATION - Haciendo click en no suscribirse al newsletter
-20:07:55.788 INFO  AUTOMATION - Aceptando politica de privacidad
-20:07:55.899 INFO  AUTOMATION - Click eb continue
-20:07:57.096 INFO  AUTOMATION - Test exitoso: testUserRegister
-20:07:57.100 DEBUG AUTOMATION - Matando al padre
-20:07:57.785 INFO  AUTOMATION - Suite finalizado: Default Suite
+20:21:11.291 INFO  AUTOMATION - Suite iniciado: Default Suite&n
+20:21:11.327 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+20:21:11.603 INFO  AUTOMATION - Asignando default driver a Chrome
+20:21:11.608 INFO  AUTOMATION - Inicializando driver: CHROME
+20:21:11.609 DEBUG AUTOMATION - Headless mode? false
+20:21:17.200 DEBUG AUTOMATION - Maximizando ventana
+20:21:17.333 DEBUG AUTOMATION - Borrando cookies
+20:21:17.358 DEBUG AUTOMATION - Asignando driver al Webdriver Provier
+20:21:17.731 INFO  AUTOMATION - Navegamos a la pagina de login
+20:21:18.638 INFO  AUTOMATION - Esperamos que la pagina LoginPage se cargue
+20:21:18.782 INFO  AUTOMATION - LoginPage se ha cargado satisfactoriamente
+20:21:18.801 INFO  AUTOMATION - Empezando el test: testUserLogin
+20:21:18.878 INFO  AUTOMATION - Escribiendo el usuario
+20:21:19.094 INFO  AUTOMATION - Escribiendo la password
+20:21:19.276 INFO  AUTOMATION - Haciendo click en login
+20:21:19.466 INFO  AUTOMATION - Test exitoso: testUserLogin
+20:21:19.471 DEBUG AUTOMATION - Matando al padre
+20:21:19.960 INFO  AUTOMATION - Suite finalizado: Default Suite
 

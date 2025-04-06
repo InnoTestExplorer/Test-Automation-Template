@@ -15,4 +15,11 @@ public class CommonFlows {
 
         getDriver().get("https://tutorialsninja.com/demo/index.php?route=account/register");
     }
+
+    public void goToLoginPage() {
+
+        Logs.info("Navegamos a la pagina de login");
+
+        getDriver().get("https://www.saucedemo.com/");
+    }
 }

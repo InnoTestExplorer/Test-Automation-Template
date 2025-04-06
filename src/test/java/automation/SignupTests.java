@@ -15,7 +15,7 @@ public class SignupTests extends BaseTest {
         commonFlows.goToSignupPage();
     }
 
-    @Test
+    @Test(groups = {execution})
     public void testUserRegister() {
 
         signupPage.userRegister(

@@ -11,6 +11,7 @@ public class BaseTest {
 
     protected final String reggression = "reggression";
     protected final DriverManager driverManager = new DriverManager();
+    protected final CommonFlows commonFlows = new CommonFlows();
 
     @BeforeMethod(alwaysRun = true)
     public void masterSetUp() {

@@ -9,11 +9,10 @@ public class LoginTests extends BaseTest {
 
     private final LoginPage loginPage = new LoginPage();
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
 
         commonFlows.goToLoginPage();
-        loginPage.waitPageToLoad();
     }
 
     @Test(groups = {execution})

@@ -1,1 +1,1 @@
-./mvnw clean test -Dgroups="execution" -Dbrowser="edge"
+./mvnw clean test -Dgroups="execution" -Dbrowser="chrome"
